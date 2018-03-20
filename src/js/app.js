@@ -10,9 +10,10 @@ App = {
 
       for (i = 0; i < data.length; i ++) {
         petTemplate.find('.panel-title').text(data[i].name);
-        petTemplate.find('img').attr('src', data[i].picture);
+        petTemplate.find('.card-image').attr('src', data[i].picture);
         petTemplate.find('.place-type').text(data[i].type);
         petTemplate.find('.place-cost').text(data[i].cost);
+        petTemplate.find('.place-likes').text(data[i].likes);
         petTemplate.find('.place-location').text(data[i].location);
         petTemplate.find('.btn-adopt').attr('data-id', data[i].id);
 
@@ -65,7 +66,7 @@ App = {
     }).then(function(adopters) {
       for (i = 0; i < adopters.length; i++) {
         if (adopters[i] !== '0x0000000000000000000000000000000000000000') {
-          $('.panel-pet').eq(i).find('button').text('Booked').attr('disabled', true);
+          $('.author').eq(i).find('button').text('Booked').attr('disabled', true);
         }
       }
     }).catch(function(err) {

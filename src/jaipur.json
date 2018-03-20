@@ -4,6 +4,7 @@
     "name": "Amber Fort",
     "picture": "images/amberfort.jpg",
     "cost": 3,
+    "likes": "2.7k",
     "type": "Monument",
     "location": "Jaipur, Rajasthan"
   },
@@ -12,6 +13,7 @@
     "name": "Birla Mandir",
     "picture": "images/birlamandir.jpg",
     "cost": 3,
+    "likes": "8.3k",
     "type": "Temple",
     "location": "Jaipur, Rajasthan"
   },
@@ -20,6 +22,7 @@
     "name": "City Palace",
     "picture": "images/citypalace.jpg",
     "cost": 2,
+    "likes": "3.4k",
     "type": "Monument",
     "location": "Jaipur, Rajasthan"
   },
@@ -28,6 +31,7 @@
     "name": "Old Fort",
     "picture": "images/fort.jpg",
     "cost": 2,
+    "likes": "2.3k",
     "type": "Monument",
     "location": "Jaipur, Rajasthan"
   },
@@ -36,6 +40,7 @@
     "name": "Jaipur Square",
     "picture": "images/jaipursquare.jpg",
     "cost": 2,
+    "likes": "2.2k",
     "type": "Monument",
     "location": "Jaipur, Rajasthan"
   },
@@ -44,6 +49,7 @@
     "name": "Jal Mahal",
     "picture": "images/jalmahal.jpg",
     "cost": 3,
+    "likes": "8.9k",
     "type": "Monument",
     "location": "Jaipur, Rajasthan"
   },
@@ -52,6 +58,7 @@
     "name": "City Palace",
     "picture": "images/citypalace.jpg",
     "cost": 3,
+    "likes": "10.2k",
     "type": "Monument",
     "location": "Jaipur, Rajasthan"
   },
@@ -60,6 +67,7 @@
     "name": "Temple",
     "picture": "images/temple.jpg",
     "cost": 3,
+    "likes": "4.3k",
     "type": "Temple",
     "location": "Jaipur, Rajasthan"
   },
@@ -68,6 +76,7 @@
     "name": "Amber Fort",
     "picture": "images/amberfort.jpg",
     "cost": 2,
+    "likes": "7.9k",
     "type": "Monument",
     "location": "Jaipur, Rajasthan"
   },
@@ -76,6 +85,7 @@
     "name": "Birla Mandir",
     "picture": "images/birlamandir.jpg",
     "cost": 3,
+    "likes": "6.5k",
     "type": "Temple",
     "location": "Jaipur, Rajasthan"
   },
@@ -84,6 +94,7 @@
     "name": "City Palace",
     "picture": "images/citypalace.jpg",
     "cost": 2,
+    "likes": "10.1k",
     "type": "Monument",
     "location": "Jaipur, Rajasthan"
   },
@@ -92,6 +103,7 @@
     "name": "Old Fort",
     "picture": "images/fort.jpg",
     "cost": 3,
+    "likes": "2.2k",
     "type": "Monument",
     "location": "Jaipur, Rajasthan"
   },
@@ -100,6 +112,7 @@
     "name": "Jaipur Square",
     "picture": "images/jaipursquare.jpg",
     "cost": 3,
+    "likes": "2.2k",
     "type": "Monument",
     "location": "Jaipur, Rajasthan"
   }
