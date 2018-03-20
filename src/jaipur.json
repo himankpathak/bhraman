@@ -1,0 +1,106 @@
+[
+  {
+    "id": 0,
+    "name": "Amber Fort",
+    "picture": "images/amberfort.jpg",
+    "cost": 3,
+    "type": "Monument",
+    "location": "Jaipur, Rajasthan"
+  },
+  {
+    "id": 1,
+    "name": "Birla Mandir",
+    "picture": "images/birlamandir.jpg",
+    "cost": 3,
+    "type": "Temple",
+    "location": "Jaipur, Rajasthan"
+  },
+  {
+    "id": 2,
+    "name": "City Palace",
+    "picture": "images/citypalace.jpg",
+    "cost": 2,
+    "type": "Monument",
+    "location": "Jaipur, Rajasthan"
+  },
+  {
+    "id": 3,
+    "name": "Old Fort",
+    "picture": "images/fort.jpg",
+    "cost": 2,
+    "type": "Monument",
+    "location": "Jaipur, Rajasthan"
+  },
+  {
+    "id": 4,
+    "name": "Jaipur Square",
+    "picture": "images/jaipursquare.jpg",
+    "cost": 2,
+    "type": "Monument",
+    "location": "Jaipur, Rajasthan"
+  },
+  {
+    "id": 5,
+    "name": "Jal Mahal",
+    "picture": "images/jalmahal.jpg",
+    "cost": 3,
+    "type": "Monument",
+    "location": "Jaipur, Rajasthan"
+  },
+  {
+    "id": 6,
+    "name": "City Palace",
+    "picture": "images/citypalace.jpg",
+    "cost": 3,
+    "type": "Monument",
+    "location": "Jaipur, Rajasthan"
+  },
+  {
+    "id": 7,
+    "name": "Temple",
+    "picture": "images/temple.jpg",
+    "cost": 3,
+    "type": "Temple",
+    "location": "Jaipur, Rajasthan"
+  },
+  {
+    "id": 8,
+    "name": "Amber Fort",
+    "picture": "images/amberfort.jpg",
+    "cost": 2,
+    "type": "Monument",
+    "location": "Jaipur, Rajasthan"
+  },
+  {
+    "id": 9,
+    "name": "Birla Mandir",
+    "picture": "images/birlamandir.jpg",
+    "cost": 3,
+    "type": "Temple",
+    "location": "Jaipur, Rajasthan"
+  },
+  {
+    "id": 10,
+    "name": "City Palace",
+    "picture": "images/citypalace.jpg",
+    "cost": 2,
+    "type": "Monument",
+    "location": "Jaipur, Rajasthan"
+  },
+  {
+    "id": 11,
+    "name": "Old Fort",
+    "picture": "images/fort.jpg",
+    "cost": 3,
+    "type": "Monument",
+    "location": "Jaipur, Rajasthan"
+  },
+  {
+    "id": 12,
+    "name": "Jaipur Square",
+    "picture": "images/jaipursquare.jpg",
+    "cost": 3,
+    "type": "Monument",
+    "location": "Jaipur, Rajasthan"
+  }
+]
