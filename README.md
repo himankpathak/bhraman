@@ -23,7 +23,7 @@ git clone https://github.com/himankpathak/Bhraman
 
 Install all the node packages inside cloned directory by
 ```
-cd Bhraman
+cd bhraman
 npm install
 ```
 
@@ -40,7 +40,7 @@ node run dev
 
 ## Contributors
 
-* [Himank Pathak](https://github.com/himnakpathak)
+* [Himank Pathak](https://github.com/himankpathak)
 * [Indranil Tiwary](https://github.com/indranil-tiwary)
 * [Sanchay Pahalwani](https://github.com/SanchayPahalwani)
 
