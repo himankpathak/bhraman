@@ -1,6 +1,9 @@
+
+![Bhraman logo](src/assets/img/cover.jpg)
+
 # Bhraman
 
-Bhraman is a tourist webapp based on Blockchain where all the monuments of Jaipur are curated over a single platform, where users can buy credits that are redeemable at tourist spots instead of physical paper tickets reducing paper litter, man labor and digitizing tourism for awesome queue free ecperience.
+Bhraman is a tourist webapp based on Blockchain where all the monuments of Jaipur are curated over a single platform, where users can buy credits that are redeemable at tourist spots instead of physical paper tickets reducing paper litter, man labor and digitizing tourism for awesome queue free experience.
 
 ## Motivation
 
