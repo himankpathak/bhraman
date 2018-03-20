@@ -115,5 +115,14 @@
     "likes": "2.2k",
     "type": "Monument",
     "location": "Jaipur, Rajasthan"
+  },
+  {
+    "id": 13,
+    "name": "City Palace",
+    "picture": "images/citypalace.jpg",
+    "cost": 2,
+    "likes": "10.1k",
+    "type": "Monument",
+    "location": "Jaipur, Rajasthan"
   }
 ]
