@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" type="image/png" href="assets/img/favicon.ico">
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+  <title>Bhraman | The world is yours</title>
+
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+  <meta name="viewport" content="width=device-width" />
+
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/css/paper-kit.css?v=2.0.1" rel="stylesheet"/>
+  <link href="assets/css/styles.css" rel="stylesheet" />
+
+  <!--   Fonts and icons   -->
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,300,700' rel='stylesheet' type='text/css'>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="assets/css/nucleo-icons.css" rel="stylesheet">
+
+</head>
+
+<body class="off-canvas-menu">
+  <nav class="navbar navbar-toggleable-md fixed-top nav-down" >
+    <div class="container">
+      <div class="navbar-translate">
+        <button class="navbar-toggler navbar-toggler-right navbar-burger" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-bar"></span>
+          <span class="navbar-toggler-bar"></span>
+          <span class="navbar-toggler-bar"></span>
+        </button>
+        <div class="navbar-header">
+          <a class="customfont" style="font-size:3rem;color:#66615B;font-weight:400;" href="presentation.html">Bhraman</a>
+        </div>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html" data-scroll="true" href="javascript:void(0)">Components</a>
+          </li>
+					<li class="nav-item dropdown dropdown-danger">
+						<a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown">Sections</a>
+						<ul class="dropdown-menu dropdown-menu-right">
+	            <li class="dropdown-item"><a href="sections.html#headers"><i class="nc-icon nc-tile-56"></i>&nbsp; Headers</a></li>
+	            <li class="dropdown-item"><a href="sections.html#features"><i class="nc-icon nc-settings"></i>&nbsp; Features</a></li>
+	            <li class="dropdown-item"><a href="sections.html#blogs"><i class="nc-icon nc-bullet-list-67"></i>&nbsp; Blogs</a></li>
+	            <li class="dropdown-item"><a href="sections.html#teams"><i class="nc-icon nc-single-02"></i>&nbsp; Teams</a></li>
+	            <li class="dropdown-item"><a href="sections.html#projects"><i class="nc-icon nc-calendar-60"></i>&nbsp; Projects</a></li>
+							<li class="dropdown-item"><a href="sections.html#pricing"><i class="nc-icon nc-money-coins"></i>&nbsp; Pricing</a></li>
+							<li class="dropdown-item"><a href="sections.html#testimonials"><i class="nc-icon nc-badge"></i>&nbsp; Testimonials</a></li>
+							<li class="dropdown-item"><a href="sections.html#contact-us"><i class="nc-icon nc-mobile"></i>&nbsp; Contacts</a></li>
+	          </ul>
+					</li>
+          <li class="nav-item dropdown dropdown-danger">
+            <a class="nav-link dropdown-toggle"  data-toggle="dropdown" href="javascript:void(0)">Examples</a>
+						<ul class="dropdown-menu dropdown-menu-right">
+	            <li class="dropdown-item"><a href="examples/about-us.html"><i class="nc-icon nc-bank"></i>&nbsp; About Us</a></li>
+	            <li class="dropdown-item"><a href="examples/add-product.html"><i class="nc-icon nc-basket"></i>&nbsp; Add Product</a></li>
+	            <li class="dropdown-item"><a href="examples/blog-post.html"><i class="nc-icon nc-badge"></i>&nbsp; Blog Post</a></li>
+	            <li class="dropdown-item"><a href="examples/blog-posts.html"><i class="nc-icon nc-bullet-list-67"></i>&nbsp; Blog Posts</a></li>
+	            <li class="dropdown-item"><a href="examples/contact-us.html"><i class="nc-icon nc-mobile"></i>&nbsp; Contact Us</a></li>
+							<li class="dropdown-item"><a href="examples/discover.html"><i class="nc-icon nc-world-2"></i>&nbsp; Discover</a></li>
+							<li class="dropdown-item"><a href="examples/ecommerce.html"><i class="nc-icon nc-send"></i>&nbsp; Ecommerce</a></li>
+							<li class="dropdown-item"><a href="examples/landing.html"><i class="nc-icon nc-spaceship"></i>&nbsp; Landing</a></li>
+							<li class="dropdown-item"><a href="examples/login.html"><i class="nc-icon nc-lock-circle-open"></i>&nbsp; Login</a></li>
+							<li class="dropdown-item"><a href="examples/product-page.html"><i class="nc-icon nc-album-2"></i>&nbsp; Product Page</a></li>
+							<li class="dropdown-item"><a href="examples/profile.html"><i class="nc-icon nc-single-02"></i>&nbsp; Profile</a></li>
+							<li class="dropdown-item"><a href="examples/register.html"><i class="nc-icon nc-bookmark-2"></i>&nbsp; Register</a></li>
+							<li class="dropdown-item"><a href="examples/search-with-sidebar.html"><i class="nc-icon nc-zoom-split"></i>&nbsp; Search</a></li>
+							<li class="dropdown-item"><a href="examples/settings.html"><i class="nc-icon nc-settings-gear-65"></i>&nbsp; Settings</a></li>
+							<li class="dropdown-item"><a href="examples/twitter-redesign.html"><i class="nc-icon nc-tie-bow"></i>&nbsp; Twitter</a></li>
+	          </ul>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-round btn-danger" href="#"><i class="fa fa-user"></i>Login/Signup</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="cd-section" id="headers">
+
+    <div class="header-3 header-4">
+
+      <div class="page-carousel">
+        <div class="filter"></div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <div class="page-header header-video">
+                <div class="filter "></div>
+                <!-- We show the video image placeholder instead of the video for small devices  -->
+                <div class="video-image visible-xs visible-sm" style="background-image: url('assets/img/cover.jpg')"></div>
+
+                <video id="video-source" preload="auto" loop="loop" muted="muted" volume="0" autoplay>
+                  <source src="assets/video/waves.mp4" type="video/mp4">
+                    Video not supported
+                </video>
+                <div class="content-center state-play">
+                  <div class="container upper-container text-center">
+                    <div class="video-text">
+                      <h1 class="customfont" style="font-size:8rem;">Bhraman</h1>
+                      <h2 class="title-uppercase title-no-upper-margin">The world is yours</h2>
+                    </div>
+                    <br />
+                    <!--  We hide the play button on small devices -->
+                    <button type="button" data-video="video-source" data-toggle="video" class="btn btn-lg btn-neutral hidden-xs hidden-sm">
+                      <i class="fa fa-pause"></i> Pause Video
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="page-header" style="background-image: url('https://images.unsplash.com/photo-1482690205767-61deebe15ef7?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=')">
+                <div class="filter"></div>
+                <div class="content-center">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-8 offset-2 text-center">
+                        <h1 class="title">Providing Awesome Experiences</h1>
+                        <h5>We at<em> bhraman </em>wish to deliver robust, easy to use and far most secure services to our users so that they could experience world-class tourism with just a few clicks away from a smart device.</h5>
+                        <br />
+                        <br/>
+                        <h6>Connect with us:</h6>
+                        <div class="buttons">
+                          <a href="#!" class="btn btn-neutral btn-link btn-just-icon">
+                            <i class="fa fa-twitter"></i>
+                          </a>
+                          <a href="#!" class="btn btn-neutral btn-link btn-just-icon">
+                            <i class="fa fa-facebook-square"></i>
+                          </a>
+                          <a href="#!" class="btn btn-neutral btn-link btn-just-icon">
+                            <i class="fa fa-instagram"></i>
+                          </a>
+                          <a href="#!" class="btn btn-neutral btn-link btn-just-icon">
+                            <i class="fa fa-google-plus"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="page-header" style="background-image: url('https://images.unsplash.com/photo-1498063669468-89723a87123d?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=')">
+                <div class="filter"></div>
+                <div class="content-center">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-7 offset-5 text-right">
+                        <h2 class="title">Premium Offers for Rajasthan</h1>
+                        <h5>Now you have no excuses to stop yourself from visiting <strong>Rajasthan</strong>. Bhraman's automated ticketing service provides you the robust way by using the secure <strong>blockchain </strong>technology to book tickets and visit famous places in tourist hot-spots.
+                        <br/><em>Earn bonus credits by booking right now!</em></h5>
+                        <br />
+                        <div class="buttons">
+
+                          <a href="#!" class="btn btn-neutral btn-link btn-lg">
+                            <i class="fa fa-share-alt"></i> Share Offer
+                          </a>
+                          <a href="#!" class="btn btn-success btn-round btn-lg">
+                            <i class="fa fa-shopping-cart"></i> Buy Tickets
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a class="left carousel-control carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="fa fa-angle-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="fa fa-angle-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="cd-section section-white" id="features">
+
+  <!--   *********   FEATURES 1    *********    -->
+    <div class="features-1">
+      <div class="container">
+        <div class="row">
+  				<div class="col-md-8 offset-md-2  text-center">
+  					<h2 class="title">Why our product is the best</h2>
+  					<h5 class="description">This is the paragraph where you can write more details about your product. Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious, otherwise he wouldn't scroll to get here.</h5>
+  				</div>
+  			</div>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="info">
+              <div class="icon icon-danger">
+                <i class="fa fa-lock"></i>
+              </div>
+              <div class="description">
+                <h4 class="info-title">Cryptographical Security</h4>
+                <p class="description">Works on blockchain technology.</p>
+                <a href="#pkp" class="btn btn-link btn-danger"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="info">
+              <div class="icon icon-danger">
+                <i class="fa fa-connectdevelop"></i>
+              </div>
+              <div class="description">
+                <h4 class="info-title">Decentralised</h4>
+                <p>No single point of failure because of distributed network.</p>
+                <a href="#pkp" class="btn btn-link btn-danger"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="info">
+              <div class="icon icon-danger">
+                <i class="fa fa-sync"></i>
+              </div>
+              <div class="description">
+                <h4 class="info-title">Recommended Hotspots</h4>
+                <p>Recommends you tourist places which </p>
+                <a href="#pkp" class="btn btn-link btn-danger"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="info">
+              <div class="icon icon-danger">
+                <i class="nc-icon nc-sun-fog-29"></i>
+              </div>
+              <div class="description">
+                <h4 class="info-title">Delightful Experiences</h4>
+                <p>Something new everyday to douse your travel thirst.</p>
+                <a href="#pkp" class="btn btn-link btn-danger"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!--   *********   FEATURES 2    *********
+    <div class="features-2">
+      <div class="container">
+        <div class="row">
+  				<div class="col-md-8 offset-md-2 text-center">
+  					<h2 class="title">Is this what you are looking for?</h2>
+  					<h5 class="description">This is the paragraph where you can write more details about your product. Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious, otherwise he wouldn't scroll to get here.</h5>
+            <br/>
+          </div>
+  			</div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card" data-background="image" style="background-image: url('assets/img/sections/jan-sendereks.jpg')">
+							<div class="card-block">
+								<h6 class="card-category">Design</h6>
+                <div class="card-icon">
+									<i class="nc-icon nc-world-2"></i>
+								</div>
+                <p class="card-description">Unlike fashionable design, it lasts many years – even in today’s throwaway society.</p>
+
+                <div class="card-footer">
+                  <a href="#!" class="btn btn-link btn-neutral">
+                    <i class="fa fa-book" aria-hidden="true"></i> Show more
+                  </a>
+                </div>
+							</div>
+						</div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" data-background="image" style="background-image: url('assets/img/sections/anders-jilden.jpg')">
+							<div class="card-block">
+								<h6 class="card-category">UI Kits</h6>
+                <div class="card-icon">
+									<i class="nc-icon nc-single-copy-04"></i>
+								</div>
+                <p class="card-description">Imagine if you could go to the profile of a friend and instead of scrolling through...</p>
+
+                <div class="card-footer">
+                  <a href="#!" class="btn btn-link btn-neutral">
+                    <i class="fa fa-book" aria-hidden="true"></i> Show more
+                  </a>
+                </div>
+							</div>
+						</div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" data-background="image" style="background-image: url('assets/img/sections/uriel-soberanes.jpg')">
+							<div class="card-block">
+								<h6 class="card-category">Development</h6>
+                <div class="card-icon">
+									<i class="nc-icon nc-time-alarm"></i>
+								</div>
+                <p class="card-description"> For starters, it seemed like a good idea to keep a running list of Vision investments.</p>
+
+                <div class="card-footer">
+                  <a href="#!" class="btn btn-link btn-neutral">
+                    <i class="fa fa-book" aria-hidden="true"></i> Show more
+                  </a>
+                </div>
+							</div>
+						</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    -->
+  <!--   *********   FEATURES 3    *********
+    <div class="features-3">
+      <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="row">
+                <div class="container">
+                  <h2 class="title">Your life will be much easier</h2>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="info info-horizontal">
+                    <div class="icon icon-success">
+                      <i class="nc-icon nc-layout-11"></i>
+                    </div>
+                    <div class="description">
+                      <h4 class="info-title">Components</h4>
+                      <p>The kit comes with a huge number of components designed to look perfect together.</p>
+                      <a href="#paper-kit" class="btn btn-link">See more</a>
+                    </div>
+                  </div>
+                  <div class="info info-horizontal">
+                    <div class="icon icon-warning">
+                      <i class="nc-icon nc-palette"></i>
+                    </div>
+                    <div class="description">
+                      <h4 class="info-title">Beautiful Gallery</h4>
+                      <p>Spend your time generating new ideas. You don't have to think of implementing anymore.</p>
+                      <a href="#paper-kit" class="btn btn-link">See more</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="info info-horizontal">
+                    <div class="icon icon-danger">
+                      <i class="nc-icon nc-touch-id"></i>
+                    </div>
+                    <div class="description">
+                      <h4 class="info-title">Secured</h4>
+                      <p>Larger, yet dramatically thinner. More powerful, but remarkably power is efficient.</p>
+                      <a href="#paper-kit" class="btn btn-link">See more</a>
+                    </div>
+                  </div>
+                  <div class="info info-horizontal">
+                    <div class="icon icon-primary">
+                      <i class="nc-icon nc-delivery-fast"></i>
+                    </div>
+                    <div class="description">
+                      <h4 class="info-title">Fast Prototyping</h4>
+                      <p>Medium has a new head of product, while the startup behind the defunct texting app...</p>
+                      <a href="#paper-kit" class="btn btn-link">See more</a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-md-5 offset-md-1">
+              <div class="iphone-container">
+                <img src="assets/img/sections/iphone.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    -->
+
+  <!--   *********   FEATURES 4   *********
+    <div class="features-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 offset-md-2  text-center">
+            <h2 class="title">Is this what you are looking for?</h2>
+            <h5 class="description">The more formalized version launching today brings a slate of corporate partners and a more structured application review process.</h5>
+          </div>
+        </div>
+        <div class="row">
+
+          <div class="col-md-6">
+  					<div class="ipad-container">
+  						<img src="assets/img/sections/ipad.png" />
+  					</div>
+  				</div>
+
+          <div class="col-md-4 offset-1">
+  		       	<div class="info info-horizontal">
+  						<div class="icon icon-info">
+  							<i class="nc-icon nc-atom" aria-hidden="true"></i>
+  						</div>
+  						<div class="description">
+  							<h4 class="info-title">For Developers</h4>
+  							<p>The moment you use Bhraman, you know you’ve never felt anything like it. With a single use, is's a powerfull UI Kit</p>
+  						</div>
+  		    	</div>
+
+  					<div class="info info-horizontal">
+  						<div class="icon icon-success">
+  							<i class="nc-icon nc-ruler-pencil" aria-hidden="true"></i>
+  						</div>
+  						<div class="description">
+  							<h4 class="info-title">For Designers Only</h4>
+  							<p>The moment you use Bhraman, you know you’ve never felt anything like it. With a single use, this powerfull UI Kit lets you do more than ever before.</p>
+  						</div>
+  					</div>
+            <div class="info info-horizontal">
+              <div class="icon icon-danger">
+                <i class="nc-icon nc-tie-bow" aria-hidden="true"></i>
+              </div>
+              <div class="description">
+                <h4 class="info-title">Beautiful Examples</h4>
+                <p>Speed up your development time or get inspired with the large number of example pages.</p>
+              </div>
+            </div>
+				  </div>
+
+        </div>
+      </div>
+    </div>
+    -->
+
+  <!--   *********   FEATURES 5    *********
+
+	  <div class="features-5 section-image" style="background-image: url('assets/img/sections/the-how-photographer.jpg')">
+  		<div class="container">
+        <div class="row">
+          <div class="offset-md-3">
+            <h2 class="title text-center">Your life will be much easier</h2>
+          </div>
+        </div>
+  			<div class="row">
+  				<div class="col-sm-5 offset-md-1">
+  					<div class="info">
+  						<div class="icon">
+  							<i class="nc-icon nc-atom" aria-hidden="true"></i>
+  						</div>
+  						<h4 class="title">For Developers</h4>
+  						<p>While everyone technically has the feature now, that doesn’t mean you’ll see it all the time. But in this case, the feature wasn’t just randomly A/B tested.</p>
+  					</div>
+  				</div>
+
+  				<div class="col-sm-5">
+  					<div class="info">
+  						<div class="icon">
+  							<i class="nc-icon nc-ruler-pencil" aria-hidden="true"></i>
+  						</div>
+  						<h4 class="title">For Designers</h4>
+  						<p>Loveflutter has actually been around for a while, pivoting from matches based on shared interests (innovative!) to now focus on analyzing.</p>
+  					</div>
+  				</div>
+  			</div>
+
+  			<div class="row bottom-line">
+  				<div class="col-sm-5 offset-md-1">
+  					<div class="info">
+  						<div class="icon">
+  							<i class="nc-icon nc-paper" aria-hidden="true"></i>
+  						</div>
+  						<h4 class="title">Example Pages Included</h4>
+  						<p>As for the user backlash, it comes to the challenges faces in building features to aid newcomers, which can impact its growth and bottom line.</p>
+  					</div>
+  				</div>
+
+  				<div class="col-sm-5">
+  					<div class="info">
+  						<div class="icon">
+  							<i class="nc-icon nc-time-alarm" aria-hidden="true"></i>
+  						</div>
+  						<h4 class="title">Save Time</h4>
+  						<p>The feature itself had been developed via experimental account, where it had tested how to better personalize its service to end users.</p>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+    </div>
+  </div>
+    -->
+
+  <div class="cd-section section-white" id="blogs">
+
+
+  <!--   *********   BLOGS 1    *********    -->
+    <div class="blog-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 offset-md-2">
+            <h2 class="title text-center">Featured Articles</h2>
+            <br />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card card-plain card-blog text-center">
+              <div class="card-image">
+                <a href="#!">
+                  <img class="img img-raised" src="assets/img/sections/val-vesa.jpg" />
+                </a>
+              </div>
+              <div class="card-block">
+                <h6 class="card-category text-warning">Travel</h6>
+                <h3 class="card-title">
+                  <a href="#!">Learning different cultures through travel</a>
+                </h3>
+                <p class="card-description">
+                  A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot.
+                </p>
+                <br/>
+                <a href="#!" class="btn btn-warning btn-round"> Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card card-plain card-blog text-center">
+              <div class="card-image">
+                <a href="#!">
+                  <img class="img img-raised" src="assets/img/sections/rodrigo-ardilha.jpg" />
+                </a>
+              </div>
+              <div class="card-block">
+                <h6 class="card-category text-info">Travel</h6>
+                <h3 class="card-title">
+                  <a href="#!">Kick-Ass ways to disappear like a Ninja!</a>
+                </h3>
+                <p class="card-description">
+                  In the end, the judge ruled that Levandowski could be brought in and examined, but that each question asked to him would be vetted in advance and should have some basis in evidence.
+                </p>
+                <br/>
+                <a href="#!" class="btn btn-primary btn-round"> Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card card-plain card-blog text-center">
+              <div class="card-image">
+                <a href="#!">
+                  <img class="img img-raised" src="assets/img/sections/federico-beccari.jpg" />
+                </a>
+              </div>
+              <div class="card-block">
+                <h6 class="card-category text-danger">Lifestyle</h6>
+                <h3 class="card-title">
+                  <a href="#!">We will breathe clean air and exercise</a>
+                </h3>
+                <p class="card-description">
+                  Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is too high for the beams and angle of the ceiling...
+                </p>
+                <br/>
+                <a href="#!" class="btn btn-danger btn-round"> Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card card-plain card-blog text-center">
+              <div class="card-image">
+                <a href="#!">
+                  <img class="img img-raised" src="assets/img/sections/pedro-lastra.jpg" />
+                </a>
+              </div>
+              <div class="card-block">
+                <h6 class="card-category text-success">Best Seller</h6>
+                <h3 class="card-title">
+                  <a href="#!">Readers Pick of The Month</a>
+                </h3>
+                <p class="card-description">
+                  “Raising equity is very expensive” In essence, it lets new consumer businesses apply to raise funding on its platform, and gives investors a new way to find and back those tricks to finance their growing businesses.
+                </p>
+                <br/>
+                <a href="#!" class="btn btn-success btn-round"> Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+		</div>
+
+    <!--   *********   BLOGS 2    *********    -->
+
+    <div class="blog-5">
+      <div class="container">
+        <h2 class="title text-center">Latest News</h2>
+        <div class="row">
+          <div class="col-md-7">
+            <div class="card" data-background="image" style="background-image: url('assets/img/sections/uriel-soberanes.jpg')">
+							<div class="card-block">
+								<h6 class="card-category">
+                  <i class="fa fa-newspaper-o"></i> Lifestyle</h6>
+								<a href="#!">
+									<h3 class="card-title">Twenty-Something Travel - Virtual Wayfarer</h3>
+								</a>
+								<p class="card-description">
+									As happens in most of these hearings so far, that argument led to a back-and-forth between Uber and Waymo’s lawyers over the pre-trial discovery...
+								</p>
+                <div class="card-footer">
+	                <div class="author">
+	                  <a href="#!">
+	                     <img src="assets/img/faces/joe-gardner-2.jpg" alt="..." class="avatar img-raised">
+	                     <span>Lynne Barrett</span>
+	                  </a>
+	                </div>
+	              </div>
+							</div>
+						</div>
+          </div>
+          <div class="col-md-5">
+            <div class="card" data-background="image" style="background-image: url('assets/img/sections/forest-bg.jpg')">
+							<div class="card-block">
+								<h6 class="card-category">
+                  <i class="fa fa-newspaper-o"></i> Media</h6>
+								<a href="#!">
+									<h3 class="card-title">The aesthetic quality of a product</h3>
+								</a>
+								<p class="card-description">
+									 It clarifies the product’s structure. Better still, it can make the product clearly express its function by making use of the user’s intuition.
+								</p>
+                <div class="card-footer">
+	                <div class="author">
+	                  <a href="#!">
+	                     <img src="assets/img/faces/erik-lucatero-2.jpg" alt="..." class="avatar img-raised">
+	                     <span>Eric J Barnes</span>
+	                  </a>
+	                </div>
+	              </div>
+							</div>
+						</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card" data-background="image" style="background-image: url('assets/img/sections/pavel-kosov.jpg')">
+							<div class="card-block">
+								<h6 class="card-category">
+                  <i class="fa fa-newspaper-o"></i>Design</h6>
+								<a href="#!">
+									<h3 class="card-title">“Good Design”</h3>
+								</a>
+								<p class="card-description">
+									Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Jay-z...
+								</p>
+                <div class="card-footer">
+	                <div class="author">
+	                  <a href="#!">
+	                     <img src="assets/img/faces/kaci-baum-2.jpg" alt="..." class="avatar img-raised">
+	                     <span>Patricia Beatty</span>
+	                  </a>
+	                </div>
+	              </div>
+							</div>
+						</div>
+          </div>
+          <div class="col-md-6">
+            <div class="card" data-background="image" style="background-image: url('assets/img/sections/ilya-yakover.jpg')">
+							<div class="card-block">
+								<h6 class="card-category">
+                  <i class="fa fa-newspaper-o"></i> Development</h6>
+								<a href="#!">
+									<h3 class="card-title">In need of a good development</h3>
+								</a>
+								<p class="card-description">
+									Speed up your development time or get inspired with the large number of example pages. You can jump start your development with our pre-built example pages.
+								</p>
+                <div class="card-footer">
+	                <div class="author">
+	                  <a href="#!">
+	                     <img src="assets/img/faces/clem-onojeghuo-3.jpg" alt="..." class="avatar img-raised">
+	                     <span>Robert Brandon</span>
+	                  </a>
+	                </div>
+	              </div>
+							</div>
+						</div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" data-background="image" style="background-image: url('assets/img/sections/vincent-versluis.jpg')">
+							<div class="card-block">
+								<h6 class="card-category">
+                  <i class="fa fa-newspaper-o"></i> Technology</h6>
+								<a href="#!">
+									<h3 class="card-title">A Little Adrift</h3>
+								</a>
+								<p class="card-description">
+									But from the perspective of founders, there’s bound to be some confusion. In an ideal world we will see a meeting of the minds
+								</p>
+                <div class="card-footer">
+	                <div class="author">
+	                  <a href="#!">
+	                     <img src="assets/img/faces/ayo-ogunseinde-2.jpg" alt="..." class="avatar img-raised">
+	                     <span>Ayo Michael</span>
+	                  </a>
+	                </div>
+	              </div>
+							</div>
+						</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!--   *********  CONTACT US   *********    -->
+  <div class="cd-section section-white" id="contact-us">
+
+  	<div class="contactus-1 section-image" style="background-image: url('assets/img/sections/soroush-karimi.jpg')">
+  		<div class="container">
+  			<div class="row">
+          <div class="col-md-10 offset-md-1">
+            <div class="card card-contact no-transition">
+              <h3 class="card-title text-center">Contact Us</h3>
+              <div class="row">
+                <div class="col-md-5 offset-md-1">
+                  <div class="card-block">
+                    <div class="info info-horizontal">
+                      <div class="icon icon-info">
+                        <i class="nc-icon nc-pin-3" aria-hidden="true"></i>
+                      </div>
+                      <div class="description">
+                        <h4 class="info-title">Find us at the office</h4>
+                        <p> Bld Mihail Kogalniceanu, nr. 8,<br>
+                          7652 Bucharest,<br>
+                          Romania
+                        </p>
+                      </div>
+                    </div>
+                    <div class="info info-horizontal">
+                      <div class="icon icon-danger">
+                        <i class="nc-icon nc-badge" aria-hidden="true"></i>
+                      </div>
+                      <div class="description">
+                        <h4 class="info-title">Give us a ring</h4>
+                        <p> Michael Jordan<br>
+                          +40 762 321 762<br>
+                          Mon - Fri, 8:00-22:00
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-5">
+                  <form role="form" id="contact-form" method="post">
+                    <div class="card-block">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="form-group label-floating">
+                            <label class="control-label">First name</label>
+                            <input type="text" name="name" class="form-control" placeholder="First Name">
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group label-floating">
+                            <label class="control-label">Last name</label>
+                            <input type="text" name="name" class="form-control" placeholder="Last Name">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group label-floating">
+                        <label class="control-label">Email address</label>
+                        <input type="email" name="email" class="form-control" placeholder="Email"/>
+                      </div>
+                      <div class="form-group label-floating">
+                        <label class="control-label">Your message</label>
+                        <textarea name="message" class="form-control" id="message" rows="6" placeholder="Message"></textarea>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="checkbox">
+                            <input id="checkbox1" type="checkbox">
+                            <label for="checkbox1">
+                              I'm not a robot !
+                            </label>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <button type="submit" class="btn btn-primary pull-right">Send Message</a>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+          </div>
+  			</div>
+  		</div>
+  	</div>
+
+  </div>
+
+  <a class="cd-nav-trigger cd-img-replace">Open navigation</a>
+  <nav id="cd-vertical-nav">
+  		<ul>
+  			<li>
+  				<a href="#headers" data-number="1">
+  					<span class="cd-dot"></span>
+  					<span class="cd-label">Home</span>
+  				</a>
+  			</li>
+  			<li>
+  				<a href="#features" data-number="2">
+  					<span class="cd-dot"></span>
+  					<span class="cd-label">Features</span>
+  				</a>
+  			</li>
+  			<li>
+  				<a href="#blogs" data-number="3">
+  					<span class="cd-dot"></span>
+  					<span class="cd-label">Blogs</span>
+  				</a>
+  			</li>
+  			<li>
+  				<a href="#teams" data-number="4">
+  					<span class="cd-dot"></span>
+  					<span class="cd-label">Teams</span>
+  				</a>
+  			</li>
+  			<li>
+  				<a href="#projects" data-number="5">
+  					<span class="cd-dot"></span>
+  					<span class="cd-label">Projects</span>
+  				</a>
+  			</li>
+  			<li>
+  				<a href="#pricing" data-number="6">
+  					<span class="cd-dot"></span>
+  					<span class="cd-label">Pricing</span>
+  				</a>
+  			</li>
+  			<li>
+  				<a href="#testimonials" data-number="7">
+  					<span class="cd-dot"></span>
+  					<span class="cd-label">Testimonials</span>
+  				</a>
+  			</li>
+  			<li>
+  				<a href="#contact-us" data-number="8">
+  					<span class="cd-dot"></span>
+  					<span class="cd-label">Contact Us</span>
+  				</a>
+  			</li>
+  		</ul>
+  	</nav>
+
+</body>
+
+
+<!-- Core JS Files -->
+<script src="assets/js/jquery-3.2.1.min.js" type="text/javascript"></script>
+<script src="assets/js/jquery-ui-1.12.1.custom.min.js" type="text/javascript"></script>
+<script src="assets/js/tether.min.js" type="text/javascript"></script>
+<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="assets/js/paper-kit.js?v=2.0.1"></script>
+
+<!-- Switches -->
+<script src="assets/js/bootstrap-switch.min.js"></script>
+
+<!--  Plugins for Slider -->
+<script src="assets/js/nouislider.js"></script>
+
+<!--  Photoswipe files -->
+<script src="assets/js/photo_swipe/photoswipe.min.js"></script>
+<script src="assets/js/photo_swipe/photoswipe-ui-default.min.js"></script>
+<script src="assets/js/photo_swipe/init-gallery.js"></script>
+
+<!--  Plugins for Select -->
+<script src="assets/js/bootstrap-select.js"></script>
+
+<!--  for fileupload -->
+<script src="assets/js/jasny-bootstrap.min.js"></script>
+
+<!--  Plugins for Map -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHLD65Aqwt_mhS2rS6fYlVTDnmOay5Yu8"></script>
+<script src="assets/js/demo.js"></script>
+
+<!--  Plugins for Tags -->
+<script src="assets/js/bootstrap-tagsinput.js"></script>
+
+<!--  Plugins for DateTimePicker -->
+<script src="assets/js/moment.min.js"></script>
+<script src="assets/js/bootstrap-datetimepicker.min.js"></script>
+
+<script type="text/javascript">
+  $().ready(function(){
+    if (window_width >= 768) {
+      $(window).on('scroll', demo.checkScrollForPresentationPage);
+    }
+  });
+</script>
+
+</html>
