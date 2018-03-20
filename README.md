@@ -1,5 +1,5 @@
 
-![Bhraman logo](src/assets/img/cover.jpg)
+![Bhraman logo](src/assets/img/cover-readme.jpg)
 
 # Bhraman
 
