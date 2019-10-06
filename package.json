@@ -1,7 +1,7 @@
 {
-  "name": "pet-shop",
+  "name": "bhraman",
   "version": "1.0.0",
-  "description": "",
+  "description": "An application for tourists based on blockchain",
   "main": "truffle.js",
   "directories": {
     "test": "test"
@@ -11,7 +11,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "lite-server": "^2.3.0"
   }
