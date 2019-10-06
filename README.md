@@ -27,17 +27,17 @@ git clone https://github.com/himankpathak/Bhraman
 Install all the node packages inside cloned directory by
 ```
 cd bhraman
-npm install
+yarn
 ```
 
 Install truffle globally
 ```
-npm install --global truffle
+yarn global add truffle
 ```
 
 Start the node server
 ```
-node run dev
+yarn run dev
 ```
 
 
